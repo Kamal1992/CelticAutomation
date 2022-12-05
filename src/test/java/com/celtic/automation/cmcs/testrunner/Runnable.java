@@ -19,7 +19,7 @@ public class Runnable extends AbstractTestNGCucumberTests {
 		);
 		}
 		catch(Exception e) {
-		System.out.println("Main method exception");
+		System.out.println("Main method exception  ");
 		}
 		}
 	}
