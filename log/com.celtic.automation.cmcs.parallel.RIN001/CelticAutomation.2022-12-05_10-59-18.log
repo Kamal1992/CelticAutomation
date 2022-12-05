@@ -1,0 +1,19 @@
+[INFO ] 2022-12-05 10:59:19.277 [TestNG-PoolService-0] RIN001 - Opened Browser
+[INFO ] 2022-12-05 10:59:39.067 [TestNG-PoolService-1] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-05 10:59:39.320 [TestNG-PoolService-0] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-05 10:59:40.156 [TestNG-PoolService-0] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-05 10:59:40.266 [TestNG-PoolService-1] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-05 10:59:41.032 [TestNG-PoolService-0] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-05 10:59:41.123 [TestNG-PoolService-1] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-05 10:59:46.277 [TestNG-PoolService-0] RIN001 - *** Click Login ***
+[INFO ] 2022-12-05 10:59:47.098 [TestNG-PoolService-1] RIN001 - *** Click Login ***
+[INFO ] 2022-12-05 11:00:16.651 [TestNG-PoolService-0] RIN001 - *** Click IRP ***
+[INFO ] 2022-12-05 11:00:17.863 [TestNG-PoolService-0] RIN001 - *** Click Fleet More ***
+[INFO ] 2022-12-05 11:00:22.511 [TestNG-PoolService-1] RIN001 - *** Click IRP ***
+[INFO ] 2022-12-05 11:00:23.697 [TestNG-PoolService-0] RIN001 - *** Click Fleet Reinstatement ***
+[INFO ] 2022-12-05 11:00:25.440 [TestNG-PoolService-0] RIN001 - *** Enter Account Number ***
+[INFO ] 2022-12-05 11:00:25.707 [TestNG-PoolService-1] RIN001 - *** Click RenewFleet ***
+[ERROR] 2022-12-05 11:00:25.968 [TestNG-PoolService-0] RIN001 - Error in ReadExcelUtiljava.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+[INFO ] 2022-12-05 11:00:27.535 [TestNG-PoolService-1] RIN001 - *** Enter Account Number ***
+[INFO ] 2022-12-05 11:00:28.707 [TestNG-PoolService-1] RIN001 - *** Enter FleetNo ***
+[INFO ] 2022-12-05 11:00:29.531 [TestNG-PoolService-1] RIN001 - *** Click FleetYear ***

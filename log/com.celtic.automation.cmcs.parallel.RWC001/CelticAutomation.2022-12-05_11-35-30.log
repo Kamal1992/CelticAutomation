@@ -1,0 +1,20 @@
+[INFO ] 2022-12-05 11:35:31.545 [TestNG-PoolService-1] RWC001 - Opened Browser
+[INFO ] 2022-12-05 11:35:32.747 [TestNG-PoolService-0] RIN001 - Opened Browser
+[INFO ] 2022-12-05 11:35:47.296 [TestNG-PoolService-1] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-05 11:35:49.256 [TestNG-PoolService-1] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-05 11:35:49.434 [TestNG-PoolService-0] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-05 11:35:50.603 [TestNG-PoolService-1] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-05 11:35:51.157 [TestNG-PoolService-0] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-05 11:35:52.225 [TestNG-PoolService-0] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-05 11:35:56.817 [TestNG-PoolService-1] RIN001 - *** Click Login ***
+[INFO ] 2022-12-05 11:36:00.277 [TestNG-PoolService-0] RIN001 - *** Click Login ***
+[INFO ] 2022-12-05 11:36:13.803 [TestNG-PoolService-1] RIN001 - *** Click IRP ***
+[INFO ] 2022-12-05 11:36:16.908 [TestNG-PoolService-1] RIN001 - *** Click RenewFleet ***
+[INFO ] 2022-12-05 11:36:18.580 [TestNG-PoolService-1] RIN001 - *** Enter Account Number ***
+[INFO ] 2022-12-05 11:36:19.704 [TestNG-PoolService-1] RIN001 - *** Enter FleetNo ***
+[INFO ] 2022-12-05 11:36:20.933 [TestNG-PoolService-1] RIN001 - *** Click FleetYear ***
+[INFO ] 2022-12-05 11:36:41.389 [TestNG-PoolService-0] RIN001 - *** Click IRP ***
+[INFO ] 2022-12-05 11:36:42.692 [TestNG-PoolService-0] RIN001 - *** Click Fleet More ***
+[INFO ] 2022-12-05 11:36:47.635 [TestNG-PoolService-0] RIN001 - *** Click Fleet Reinstatement ***
+[INFO ] 2022-12-05 11:36:49.038 [TestNG-PoolService-0] RIN001 - *** Enter Account Number ***
+[ERROR] 2022-12-05 11:36:49.433 [TestNG-PoolService-0] RIN001 - Error in ReadExcelUtiljava.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null

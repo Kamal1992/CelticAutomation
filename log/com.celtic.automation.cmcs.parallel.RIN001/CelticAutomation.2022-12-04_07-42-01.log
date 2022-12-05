@@ -1,0 +1,17 @@
+[INFO ] 2022-12-04 19:42:01.152 [TestNG-PoolService-0] RIN001 - Opened Browser
+[INFO ] 2022-12-04 19:42:17.974 [TestNG-PoolService-1] RWC001 - Opened Browser
+[INFO ] 2022-12-04 19:43:10.995 [TestNG-PoolService-0] RWC001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-04 19:43:11.800 [TestNG-PoolService-0] RWC001 - *** Enter Username ***
+[INFO ] 2022-12-04 19:43:12.254 [TestNG-PoolService-0] RWC001 - *** Enter Password ***
+[INFO ] 2022-12-04 19:43:17.051 [TestNG-PoolService-0] RWC001 - *** Click Login ***
+[INFO ] 2022-12-04 19:43:56.799 [TestNG-PoolService-1] RWC001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-04 19:43:57.213 [TestNG-PoolService-1] RWC001 - *** Enter Username ***
+[INFO ] 2022-12-04 19:43:57.791 [TestNG-PoolService-1] RWC001 - *** Enter Password ***
+[INFO ] 2022-12-04 19:44:05.709 [TestNG-PoolService-1] RWC001 - *** Click Login ***
+[INFO ] 2022-12-04 19:44:23.122 [TestNG-PoolService-0] RWC001 - *** Click IRP ***
+[INFO ] 2022-12-04 19:44:23.512 [TestNG-PoolService-0] RWC001 - *** Click Fleet More ***
+[INFO ] 2022-12-04 19:44:33.970 [TestNG-PoolService-0] RWC001 - *** Click Fleet Reinstatement ***
+[INFO ] 2022-12-04 19:44:35.110 [TestNG-PoolService-0] RWC001 - *** Enter Account Number ***
+[ERROR] 2022-12-04 19:44:35.321 [TestNG-PoolService-0] RIN001 - Error in ReadExcelUtiljava.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+[INFO ] 2022-12-04 19:45:02.522 [TestNG-PoolService-1] RWC001 - *** Click IRP ***
+[INFO ] 2022-12-04 19:45:05.114 [TestNG-PoolService-1] RWC001 - *** Click RenewFleet ***

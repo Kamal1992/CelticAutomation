@@ -1,0 +1,17 @@
+[INFO ] 2022-12-04 19:58:25.225 [TestNG-PoolService-0] RIN001 - Opened Browser
+[INFO ] 2022-12-04 19:59:16.601 [TestNG-PoolService-1] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-04 19:59:17.045 [TestNG-PoolService-1] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-04 19:59:17.434 [TestNG-PoolService-1] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-04 19:59:24.390 [TestNG-PoolService-1] RIN001 - *** Click Login ***
+[INFO ] 2022-12-04 19:59:55.679 [TestNG-PoolService-0] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-04 19:59:56.113 [TestNG-PoolService-0] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-04 19:59:56.490 [TestNG-PoolService-0] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-04 20:00:01.627 [TestNG-PoolService-0] RIN001 - *** Click Login ***
+[INFO ] 2022-12-04 20:00:52.612 [TestNG-PoolService-1] RIN001 - *** Click IRP ***
+[INFO ] 2022-12-04 20:00:56.507 [TestNG-PoolService-1] RIN001 - *** Click RenewFleet ***
+[INFO ] 2022-12-04 20:00:57.556 [TestNG-PoolService-1] RIN001 - *** Enter Account Number ***
+[INFO ] 2022-12-04 20:00:57.927 [TestNG-PoolService-1] RIN001 - *** Enter FleetNo ***
+[INFO ] 2022-12-04 20:00:58.343 [TestNG-PoolService-1] RIN001 - *** Click FleetYear ***
+[INFO ] 2022-12-04 20:01:03.881 [TestNG-PoolService-1] RIN001 - IRPSUPP13 : [E] You cannot do this supplement because next year's renewal/reinstatement has started.
+[INFO ] 2022-12-04 20:01:09.123 [TestNG-PoolService-0] RIN001 - *** Click IRP ***
+[INFO ] 2022-12-04 20:01:09.488 [TestNG-PoolService-0] RIN001 - *** Click Fleet More ***

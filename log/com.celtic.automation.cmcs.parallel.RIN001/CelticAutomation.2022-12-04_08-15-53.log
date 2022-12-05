@@ -1,0 +1,5 @@
+[INFO ] 2022-12-04 20:15:53.796 [TestNG-PoolService-0] RIN001 - Opened Browser
+[INFO ] 2022-12-04 20:16:37.584 [TestNG-PoolService-0] RIN001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-04 20:16:38.073 [TestNG-PoolService-0] RIN001 - *** Enter Username ***
+[INFO ] 2022-12-04 20:16:38.454 [TestNG-PoolService-0] RIN001 - *** Enter Password ***
+[INFO ] 2022-12-04 20:16:44.827 [TestNG-PoolService-0] RIN001 - *** Click Login ***

@@ -1,0 +1,9 @@
+[INFO ] 2022-12-03 14:01:25.160 [TestNG-PoolService-1] RWC001 - Opened Browser
+[INFO ] 2022-12-03 14:01:41.863 [TestNG-PoolService-0] RWC001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-03 14:01:42.906 [TestNG-PoolService-0] RWC001 - *** Enter Username ***
+[INFO ] 2022-12-03 14:01:43.921 [TestNG-PoolService-0] RWC001 - *** Enter Password ***
+[INFO ] 2022-12-03 14:01:50.092 [TestNG-PoolService-0] RWC001 - *** Click Login ***
+[INFO ] 2022-12-03 14:02:13.439 [TestNG-PoolService-1] RWC001 - ****************************** Login to the application  *****************************************
+[INFO ] 2022-12-03 14:02:14.296 [TestNG-PoolService-1] RWC001 - *** Enter Username ***
+[INFO ] 2022-12-03 14:02:15.124 [TestNG-PoolService-1] RWC001 - *** Enter Password ***
+[INFO ] 2022-12-03 14:02:18.484 [TestNG-PoolService-1] RWC001 - *** Click Login ***

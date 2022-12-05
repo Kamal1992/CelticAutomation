@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T10:59:03 IST" name="Default suite" finished-at="2022-12-05T11:00:49 IST" duration-ms="105126">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.celtic.automation.cmcs.testrunner.MyTestRunner@231f98ef]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-12-05T10:59:03 IST" name="Default test" finished-at="2022-12-05T11:00:49 IST" duration-ms="105126">
+      <class name="com.celtic.automation.cmcs.testrunner.MyTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.celtic.automation.cmcs.testrunner.MyTestRunner@231f98ef]" started-at="2022-12-05T10:59:03 IST" name="setUpClass" finished-at="2022-12-05T10:59:05 IST" duration-ms="1754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3086f480]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.celtic.automation.cmcs.testrunner.MyTestRunner@231f98ef]" started-at="2022-12-05T10:59:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-05T11:00:33 IST" duration-ms="88004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["IRP Renew fleet chrome"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Renew Fleet feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.celtic.automation.cmcs.testrunner.MyTestRunner@231f98ef]" started-at="2022-12-05T10:59:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-05T11:00:27 IST" duration-ms="81907" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["IRP Reinstate fleet edge"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Reinstate Fleet feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy32.sendKeys(Unknown Source)
+at com.celtic.automation.cmcs.util.ElementUtil.webEditTxt(ElementUtil.java:1211)
+at com.celtic.automation.cmcs.pages.FleetPage.enterLastInactiveDays(FleetPage.java:98)
+at com.celtic.automation.cmcs.parallel.RIN001.user_will_provide_all_the_inputs_select_the_record_on_the_grid(RIN001.java:157)
+at ✽.User will provide all the inputs & select the record on the grid(file:///C:/Users/SANGEETHA/git/celetic/src/test/resources/parallel/RIN001.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.celtic.automation.cmcs.testrunner.MyTestRunner@231f98ef]" started-at="2022-12-05T11:00:33 IST" name="tearDownClass" finished-at="2022-12-05T11:00:49 IST" duration-ms="15304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.celtic.automation.cmcs.testrunner.MyTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
