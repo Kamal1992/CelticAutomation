@@ -35,4 +35,7 @@ public class LoginPage {
 	public void clickLoginBtn() throws InterruptedException {
 		new ElementUtil(driver,ConfigReader.log).clickElementUsingActions(LoginbtnLogin);
 	}
+	public void clickLoginBtn1() throws InterruptedException {
+		new ElementUtil(driver,ConfigReader.log).clickElementUsingActions(LoginPassword);
+	}
 }

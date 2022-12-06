@@ -7,7 +7,7 @@ import io.cucumber.java.Scenario;
 public class CommonStep {
 	   
     //helps to generate the logs in test report.
-	public static Scenario scenario;
+	static Scenario scenario;
 	public static String scenarioName;
 	
 	@Before
@@ -19,5 +19,9 @@ public class CommonStep {
 	 public static String getScenarioName() {
 			return scenarioName;
 		}
+	 
+	 public void setLog(String log) {
+		 scenario.log(log);
+	 }
 
 }

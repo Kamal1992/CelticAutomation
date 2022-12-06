@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"1b53bfc5-53ff-496b-86c1-062d04d8ea74","feature":"Renew Fleet feature","scenario":"IRP Renew fleet chrome","start":1670220274137,"group":18,"content":"","tags":"","end":1670220386483,"className":"passed"},{"id":"346472da-1315-4c3f-84f4-8f94c3441176","feature":"Reinstate Fleet feature","scenario":"IRP Reinstate fleet edge","start":1670220274139,"group":17,"content":"","tags":"","end":1670220410777,"className":"failed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"13ed15b8-6ada-46b9-9c45-20a0c148760c","feature":"Renew Fleet feature","scenario":"IRP Renew fleet chrome","start":1670330960791,"group":18,"content":"","tags":"","end":1670331009794,"className":"failed"},{"id":"837eca97-7300-48be-ad2b-f478120c85de","feature":"Reinstate Fleet feature","scenario":"IRP Reinstate fleet edge","start":1670330960793,"group":17,"content":"","tags":"","end":1670331031873,"className":"failed"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":17,"content":"Thread[TestNG-PoolService-0,5,main]"},{"id":18,"content":"Thread[TestNG-PoolService-1,5,main]"}]);
 });

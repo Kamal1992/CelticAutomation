@@ -15,11 +15,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+
+import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 	public int m = 5;
 	static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
+	static Scenario scenario;
 	public java.util.logging.Logger log;
 	public FileHandler filehandler;
 	public StringBuilder exacttime;
@@ -46,11 +49,20 @@ public class DriverFactory {
 
 	}
 
-	public WebDriver getDriver() throws Exception {
+	public synchronized WebDriver getDriver() throws Exception {
 		if (tlDriver == null) {
 			throw new Exception ("Webdriver is not initialized properly");
 		} else {
 			return tlDriver.get();
+		}
+	}
+
+	public void quit() throws Exception {
+		if (tlDriver != null) {
+			try {
+				getDriver().quit();
+			} catch (Exception e) {
+			}
 		}
 	}
 
@@ -62,7 +74,7 @@ public class DriverFactory {
 	public synchronized void configureLoggerSystem() throws Exception {
 		try {
 			Random random = new Random();
-			Thread.sleep(1000*random.nextInt(5));
+			Thread.sleep(1000*random.nextInt(6));
 			exacttime = new StringBuilder(new Timestamp(System.currentTimeMillis()).toString().replaceAll("[.: -]", ""));
 			log = Logger.getLogger(exacttime.toString());
 			try {
@@ -93,6 +105,11 @@ public class DriverFactory {
 	
 	public void closeTheHandler() {
 		filehandler.close();
+	}
+	
+	public void setLog(String text) {
+		scenario.log(text);
+		
 	}
 
 }
